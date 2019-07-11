@@ -25,7 +25,7 @@ if not "%1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\common\bin\cspybat" -f "F:\STM32\armfly\V4配套资料\02.配套例程\02.CPU内部资源例程（10个例子）\V4-007_ADC采集和软件滤波例程（V1.0）\67a5492c80c6aef8a123b9bbd4fc5690e22b3711\V4-007_ADC采集和软件滤波例程\Project\EWARMv6\settings\Project.Flash.general.xcl" --backend -f "F:\STM32\armfly\V4配套资料\02.配套例程\02.CPU内部资源例程（10个例子）\V4-007_ADC采集和软件滤波例程（V1.0）\67a5492c80c6aef8a123b9bbd4fc5690e22b3711\V4-007_ADC采集和软件滤波例程\Project\EWARMv6\settings\Project.Flash.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\common\bin\cspybat" -f "F:\STM32\armfly\V4配套资料\02.配套例程\02.CPU内部资源例程（10个例子）\V4-007_ADC采集和软件滤波例程（V1.0）\V4-007_ADC采集和软件滤波例程\Project\EWARMv6\settings\Project.Flash.general.xcl" --backend -f "F:\STM32\armfly\V4配套资料\02.配套例程\02.CPU内部资源例程（10个例子）\V4-007_ADC采集和软件滤波例程（V1.0）\V4-007_ADC采集和软件滤波例程\Project\EWARMv6\settings\Project.Flash.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\common\bin\cspybat" -f "F:\STM32\armfly\V4配套资料\02.配套例程\02.CPU内部资源例程（10个例子）\V4-007_ADC采集和软件滤波例程（V1.0）\67a5492c80c6aef8a123b9bbd4fc5690e22b3711\V4-007_ADC采集和软件滤波例程\Project\EWARMv6\settings\Project.Flash.general.xcl" "--debug_file=%1" --backend -f "F:\STM32\armfly\V4配套资料\02.配套例程\02.CPU内部资源例程（10个例子）\V4-007_ADC采集和软件滤波例程（V1.0）\67a5492c80c6aef8a123b9bbd4fc5690e22b3711\V4-007_ADC采集和软件滤波例程\Project\EWARMv6\settings\Project.Flash.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\common\bin\cspybat" -f "F:\STM32\armfly\V4配套资料\02.配套例程\02.CPU内部资源例程（10个例子）\V4-007_ADC采集和软件滤波例程（V1.0）\V4-007_ADC采集和软件滤波例程\Project\EWARMv6\settings\Project.Flash.general.xcl" "--debug_file=%1" --backend -f "F:\STM32\armfly\V4配套资料\02.配套例程\02.CPU内部资源例程（10个例子）\V4-007_ADC采集和软件滤波例程（V1.0）\V4-007_ADC采集和软件滤波例程\Project\EWARMv6\settings\Project.Flash.driver.xcl" 
 
 @echo off 
 :end
